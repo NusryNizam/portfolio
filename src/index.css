@@ -1,37 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Space+Mono:wght@700&family=Strait&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Space+Mono:wght@700&family=Strait&display=swap");
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('assets/bg.svg');
+  background-image: url("assets/bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .section1 {
   height: 85vh;
-  /* background-color: lightblue; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* outline: 1px solid blue; */
-
 }
 
-
-
 .section1 div {
-  /* background-color: lightcoral; */
   padding: 20px;
 }
 
@@ -43,18 +37,14 @@ code {
 
 .section2 {
   height: 85vh;
-  /* background-color: lightblue; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /* justify-content: center; */
   align-items: center;
-  /* outline: 1px solid blue; */
-
 }
 
 .section2 h2 {
-  color:rgb(51, 51, 51)
+  color: rgb(51, 51, 51);
 }
 
 .cardContainer {
@@ -64,16 +54,16 @@ code {
 }
 
 #name {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 3em;
-  margin: 0px; 
+  margin: 0px;
 }
 
 #title {
   font-size: 1.2em;
   margin: 0px;
-  font-family: 'Strait', sans-serif;
+  font-family: "Strait", sans-serif;
 }
 
 #socials {
@@ -128,7 +118,7 @@ code {
 @media (max-width: 633px) {
   .section1 {
     display: block;
-    margin: auto; 
+    margin: auto;
     text-align: center;
     transform: translateY(100px);
     height: 70vh;
@@ -136,8 +126,5 @@ code {
 
   .section2 {
     transform: translateY(100px);
-  }
-  div.section:nth-child(1) > div:nth-child(2) {
-    /* text-align: left; */
   }
 }
