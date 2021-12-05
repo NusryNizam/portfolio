@@ -42,20 +42,20 @@ function App() {
     <>
       <div className="section section1">
         <div>
-          <img src={img} height="200px" />
+          <img src={img} height="200px" alt="profile-pic"/>
         </div>
         <div>
           <h1 id="name">Nusry Nizam.</h1>
           <h4 id="title">Creative Designer and Web Developer</h4>
           <div id="socials">
-            <a href="https://github.com/nusrynizam" target="_blank">
-              <img src={github} width="40px" />
+            <a href="https://github.com/nusrynizam" target="_blank" rel="noreferrer">
+              <img src={github} width="40px" alt="github-logo"/>
             </a>
-            <a href="https://dribbble.com/nusry" target="_blank">
-              <img src={dribbble} width="37px" />
+            <a href="https://dribbble.com/nusry" target="_blank" rel="noreferrer">
+              <img src={dribbble} width="37px" alt="dribbble-logo"/>
             </a>
-            <a href="https://linkedin.com/in/nusrynizam" target="_blank">
-              <img src={linkedin} width="40px" />
+            <a href="https://linkedin.com/in/nusrynizam" target="_blank" rel="noreferrer">
+              <img src={linkedin} width="40px" alt="linkedin-logo"/>
             </a>
           </div>
         </div>

@@ -1,8 +1,8 @@
 let ProjectCard = ({ name, description, link, img }) => {
   return (
     <div class="card">
-      <a href={link} target="_blank">
-        <img src={img} width="100%" />
+      <a href={link} target="_blank" rel="noreferrer">
+        <img src={img} width="100%" alt="project-thumbnail"/>
       </a>
       <div class="cardInfo">
         <h4>{name}</h4>
