@@ -7,11 +7,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("assets/bg.svg");
-  background-color: #fdffd2;
-  background-size: 140%;
-  background-repeat: no-repeat;
-  background-position: 30%;
+  background: url("assets/bg.svg") no-repeat center,
+    linear-gradient(
+        180deg,
+        black 0% 2%,
+        #ffd549 2% 20%,
+        rgb(255, 255, 255) 62% 100%
+      )
+      no-repeat;
+  background-size: 150% 100%;
 }
 
 @keyframes slide-down {
@@ -22,7 +26,6 @@ body {
   100% {
     opacity: 0.8;
     transform: translateY(0px);
-
   }
 }
 
@@ -88,7 +91,7 @@ code {
   padding-right: 4px;
 }
 
-.card  {
+.card {
   background-color: #ffffff;
   border-radius: 10px;
   max-width: 400px;
@@ -138,13 +141,12 @@ code {
     height: 70vh;
   }
 
-  .section2 {
-    transform: translateY(100px);
+  .section1::after {
+    transform: translateY(-100px);
+    height: 100vh;
   }
 
-  body {
-    background-color: #fdffd2;
-    background-size: 200%;
-    background-position: 30% 10%;
+  .section2 {
+    transform: translateY(100px);
   }
 }
